@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/card"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity">
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+android:orientation="horizontal">
+    <Button android:layout_width="176dp" android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:id="@+id/btnfrag1" android:text="book 1"/>
+    <Button android:layout_width="151dp" android:layout_height="wrap_content"
+            android:id="@+id/btnfrag2"
+    android:layout_margin="15dp" android:text="book 2"/>
+</LinearLayout>
+
+    <FrameLayout
+            android:layout_width="379dp"
+            android:layout_height="402dp"
+            android:foregroundGravity="center"
+            android:id="@+id/fragcontainer"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="16dp" android:layout_alignParentLeft="true"
+            android:layout_marginTop="227dp" android:layout_marginLeft="16dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="102dp"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp" android:layout_marginEnd="16dp" android:layout_alignParentTop="true"
+
+    />
+
+
+</RelativeLayout>
